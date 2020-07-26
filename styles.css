@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(font/hkgyokk.ttf);}
+html {font-size:100%; font-weight: MyFont;}
+
+body {font-family:"Yu Gothic Medium"; line-height: 1.7; white-space: nowrap; margin: 0 auto; width: 100%; margin-left: auto; margin-right: auto;}
+
+.cover-frame {height: 600px;  margin-left: auto; margin-right: auto;}
+.covers {position: absolute; animation: Anime 20s infinite; opacity:0; width: 100%;background-size: 100%; min-height:100vh; background-repeat: no-repeat;}
+.cover1 {background-image: url(小杉さん.JPG);}
+.cover2 {background-image: url(田中さん.jpg); animation-delay: 5s;}
+.cover3 {background-image: url(ワン.JPG); animation-delay: 10s;}
+.cover4 {background-image: url(全員で.jpg); animation-delay: 15s; }
+.top-logo {position: absolute; width: 200px; height: auto; margin-left: 5%; margin-top: 1.5%; z-index: 4;}
+.menu {color: white; text-shadow:0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black; font-style: MyFont; white-space: nowrap; z-index: 1; position: absolute; right: 7%; white-space: nowrap; }
+ul {font-size: 1.8vw; display: flex; list-style: none; justify-content: space-around; width: 50%; margin-top: 70px; z-index: 1;}
+li {margin-left: 5vw; z-index: 1;}
+.top-message {width: 10%; color: white; right: 40%; margin-top: 150px; line-height:280%; font-family: "MyFont"; animation: fadeIn 7s normal; position: absolute; color: white; text-shadow:0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black; font-style: MyFont; z-index: 1; font-size: 2.5vw;}
+main {width: 95%; white-space: normal; margin: 0 auto;}
+main p{font-size:1.5rem}
+@keyframes fadeIn {0% {opacity: 0} 100% {opacity: 1}}
+@keyframes Anime {
+	0% { opacity: 0; }
+	5% { opacity: 1; }
+ 25% { opacity: 1; }
+ 30% { opacity: 0; }
+100% { opacity: 0; }
+}
+
+.center{text-align: center;}
+h1{text-align: center;}
+.Gallery {width:100%; display: flex; white-space: normal; justify-content: space-around;} 
+h1 {font-style: MyFont; 
+  position: relative;
+  padding: 0.3em;}
+h1:after {
+  content: '';
+  position: absolute;
+  left: 42.5%;
+  bottom: 0;
+  width: 15%;
+  height: 7px;
+  background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+}
+.photoAbove {
+	font-style: MyFont; 
+  position: relative;
+	padding: 0.2em; margin-bottom: 0.4em;}
+.photoAbove:after {
+		content: '';
+		position: absolute;
+		left: 16%;
+		bottom: 0;
+		width: 70%;
+		height: 7px;
+		background: repeating-linear-gradient(-45deg, rgb(100, 216, 96), rgb(100, 216, 96),  white 2px, white 4px);}
+.Nakama {width:40vw; height: auto;}
+.contact {display: flex; justify-content: space-around;}
+.mapExplanation {width: 30%; font-size: 1rem;}
+.Inu {width:45vw; height: auto;}
+
+.reservation {text-align: left; list-style: none; display: flex; flex-direction: column;}
+#rendou1 {width: 300px;}
+#rendou2 {width: 300px; margin-right:80px;}
+#rendou3 {width: 300px; height: 100px;}
+a {color: white;}
